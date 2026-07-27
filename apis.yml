@@ -1,7 +1,17 @@
 aid: ilik
 name: ilik
-description: ilik is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ilik (ilikhealth.com) is a direct-to-consumer telehealth company offering
+  personalised prescription skincare designed and approved by dermatologists.
+  Customers complete an online dermatology consultation, receive a custom AM/PM
+  routine built from medical-grade, clinically proven ingredients, and have their
+  prescription medication shipped free to their door — consulting with a
+  dermatologist on their own time without the wait of an in-clinic appointment.
+  The service is organised around skin concerns such as acne, anti-ageing,
+  hyperpigmentation, and rosacea. Ilik is a consumer health / e-commerce brand
+  and does not currently publish a public developer API, SDK, or documentation
+  surface. It was surfaced as a portfolio company of 500 Global and added to the
+  API Evangelist network for enrichment and monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/ilik/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Telehealth
+- Digital Health
+- Skincare
+- Dermatology
+- Prescription
+- Consumer Health
+- eCommerce
+image: https://ilikhealth.com/favicon-32x32.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ilik-domain-security.yml
 - type: Website
   url: https://ilikhealth.com
+- type: Blog
+  url: https://ilikhealth.com/blog
+- type: Support
+  url: https://ilikhealth.com/contact
+- type: PrivacyPolicy
+  url: https://ilikhealth.com/privacy-policy
+- type: SignUp
+  url: https://ilikhealth.com/sign-up
+- type: Login
+  url: https://ilikhealth.com/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
